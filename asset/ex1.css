@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+i {
+    vertical-align: top;
+}
+
+section {
+    width: 30%;
+    margin: 0 auto;
+    border: 3px;
+}
+
+body {
+    background-image: url(../img/3.jpg)
+}
+
+#titulo {
+    color: red;
+}
+
+#caixa {
+    color: white;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(255, 0, 0));
+    margin-top: 180px;
+    text-align: center;
+}
+
+#botao {
+    text-align: center;
+    background-color: red;
+    width: 200px;
+    height: 60px;
+   
+}
+
+@keyframes alteraposicao {
+    0% {
+        background-color: black;
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        background-color: red;
+        left: 200px;
+        top: 0px;
+    }
+}
